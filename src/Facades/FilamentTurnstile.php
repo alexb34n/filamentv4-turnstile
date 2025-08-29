@@ -1,16 +1,16 @@
 <?php
 
-namespace Afatmustafa\FilamentTurnstile\Facades;
+namespace Alexb34n\FilamentTurnstile\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Afatmustafa\FilamentTurnstile\FilamentTurnstile
+ * @see \Alexb34n\FilamentTurnstile\FilamentTurnstile
  */
 class FilamentTurnstile extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Afatmustafa\FilamentTurnstile\FilamentTurnstile::class;
+        return \Alexb34n\FilamentTurnstile\FilamentTurnstile::class;
     }
 }

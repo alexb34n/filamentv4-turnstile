@@ -1,6 +1,6 @@
 <?php
 
-namespace Afatmustafa\FilamentTurnstile;
+namespace Alexb34n\FilamentTurnstile;
 
 class FilamentTurnstile
 {

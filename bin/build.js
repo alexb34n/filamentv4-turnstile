@@ -46,5 +46,5 @@ const defaultOptions = {
 compile({
     ...defaultOptions,
     entryPoints: ['./resources/js/index.js'],
-    outfile: './resources/dist/filamentv3-turnstile.js',
+    outfile: './resources/dist/filamentv4-turnstile.js',
 })

@@ -1,6 +1,6 @@
 <?php
 
-namespace Afatmustafa\FilamentTurnstile\Testing;
+namespace Alexb34n\FilamentTurnstile\Testing;
 
 use Livewire\Testing\TestableLivewire;
 

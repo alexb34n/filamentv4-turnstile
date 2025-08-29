@@ -1,6 +1,6 @@
 <?php
 
-namespace Afatmustafa\FilamentTurnstile;
+namespace Alexb34n\FilamentTurnstile;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;

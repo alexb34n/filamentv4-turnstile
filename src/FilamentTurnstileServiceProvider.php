@@ -1,8 +1,8 @@
 <?php
 
-namespace Afatmustafa\FilamentTurnstile;
+namespace Alexb34n\FilamentTurnstile;
 
-use Afatmustafa\FilamentTurnstile\Forms\Components\Turnstile;
+use Alexb34n\FilamentTurnstile\Forms\Components\Turnstile;
 use Filament\Support\Facades\FilamentAsset;
 use Livewire\Livewire;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
@@ -27,8 +27,7 @@ class FilamentTurnstileServiceProvider extends PackageServiceProvider
                 $command
                     ->publishConfigFile()
                     ->publishMigrations()
-                    ->askToRunMigrations()
-                    ->askToStarRepoOnGitHub('afatmustafa/filamentv3-turnstile');
+                    ->askToRunMigrations();
             });
 
         $configFileName = $package->shortName();
@@ -65,7 +64,7 @@ class FilamentTurnstileServiceProvider extends PackageServiceProvider
 
     protected function getAssetPackageName(): ?string
     {
-        return 'afatmustafa/filamentv3-turnstile';
+        return 'alexb34n/filamentv4-turnstile';
     }
 
     /**
