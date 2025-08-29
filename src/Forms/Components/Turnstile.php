@@ -7,7 +7,7 @@ use Filament\Forms\Components\Field;
 
 class Turnstile extends Field
 {
-    protected string $view = 'filamentv3-turnstile::components.turnstile';
+    protected string $view = 'filamentv4-turnstile::components.turnstile';
 
     protected string $language = 'en-US';
 

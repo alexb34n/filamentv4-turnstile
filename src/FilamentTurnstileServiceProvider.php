@@ -11,9 +11,9 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class FilamentTurnstileServiceProvider extends PackageServiceProvider
 {
-    public static string $name = 'filamentv3-turnstile';
+    public static string $name = 'filamentv4-turnstile';
 
-    public static string $viewNamespace = 'filamentv3-turnstile';
+    public static string $viewNamespace = 'filamentv4-turnstile';
 
     public function configurePackage(Package $package): void
     {

@@ -1,19 +1,19 @@
 {
-    "name": "afatmustafa/filamentv3-turnstile",
+    "name": "alexb34n/filamentv4-turnstile",
     "description": "A plugin to help you implement the Cloudflare Turnstile into your Filament panels.",
     "keywords": [
         "afatmustafa",
         "laravel",
-        "filamentv3-turnstile",
+        "filamentv4-turnstile",
         "filament",
         "filament-plugin",
         "cloudflare",
         "turnstile"
     ],
-    "homepage": "https://github.com/afatmustafa/filamentv3-turnstile",
+    "homepage": "https://github.com/alexb34n/filamentv4-turnstile",
     "support": {
-        "issues": "https://github.com/afatmustafa/filamentv3-turnstile/issues",
-        "source": "https://github.com/afatmustafa/filamentv3-turnstile"
+        "issues": "https://github.com/alexb34n/filamentv4-turnstile/issues",
+        "source": "https://github.com/alexb34n/filamentv4-turnstile"
     },
     "license": "MIT",
     "authors": [
@@ -26,7 +26,7 @@
     "require": {
         "php": "^8.1",
         "coderflex/laravel-turnstile": "^2.0",
-        "filament/filament": "^3.0",
+        "filament/filament": "^4.0",
         "illuminate/contracts": "^11.0|^12.0",
         "spatie/laravel-package-tools": "^1.16.4"
     },

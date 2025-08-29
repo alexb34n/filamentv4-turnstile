@@ -9,7 +9,7 @@ class FilamentTurnstilePlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'filamentv3-turnstile';
+        return 'filamentv4-turnstile';
     }
 
     public function register(Panel $panel): void
