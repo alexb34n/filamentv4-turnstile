@@ -5,13 +5,6 @@ A plugin to help you implement the Cloudflare Turnstile into your Filament panel
 This extension leverages [Laravel Turnstile](https://github.com/coderflexx/laravel-turnstile) under the hood. For more details, please refer to the __README__ on the project page.<br/>
 Kudos to [coderflexx](https://github.com/coderflexx) for his remarkable work.
 
-## Installation
-
-You can install the package via composer:
-
-```bash
-composer require Alexb34n/filamentv4-turnstile
-```
 ## Getting Started
 To include __Cloudflare Turnstile__ in your app, you'll first need to obtain both the `SiteKey` and the `SecretKey` from your [Cloudflare dashboard](https://developers.cloudflare.com/turnstile/get-started/#get-a-sitekey-and-secret-key).
 
